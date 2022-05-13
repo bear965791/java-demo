@@ -55,7 +55,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.abc.demo.Producer</mainClass> <!-- main類別的full qualified name -->
+                            <mainClass>Send</mainClass> <!-- main類別的full qualified name -->
                         </manifest>
                     </archive>
                     <descriptorRefs>
