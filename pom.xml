@@ -51,7 +51,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>Recv</mainClass> <!-- main類別的full qualified name -->
+                            <mainClass>workQueues.Worker</mainClass> <!-- main類別的full qualified name -->
                         </manifest>
                     </archive>
                     <descriptorRefs>
