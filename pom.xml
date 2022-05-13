@@ -50,7 +50,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>Send</mainClass> <!-- main類別的full qualified name -->
+                            <mainClass>workQueues.NewTask</mainClass> <!-- main類別的full qualified name -->
                         </manifest>
                     </archive>
                     <descriptorRefs>
