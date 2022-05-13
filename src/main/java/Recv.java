@@ -28,6 +28,12 @@ public class Recv {
             String message = new String(delivery.getBody(), StandardCharsets.UTF_8);
             System.out.println(" [x] Received '" + message + "'");
         };
+        /*
+         * 監聽佇列
+         * 引數1:佇列名稱
+         * 引數2：是否傳送ack包，不傳送ack訊息會持續在服務端儲存，直到收到ack。  可以通過channel.basicAck手動回覆ack
+         * 引數3：消費者
+         */
         channel.basicConsume(QUEUE_NAME, true, deliverCallback, consumerTag -> { });
     }
 }
